@@ -1,0 +1,6 @@
+Un repositorio es el contenedor digital donde se guardan el código y los archivos de un proyecto, 
+funcionando como una base de datos que registra todo su historial técnico. Sobre este espacio se aplican
+los commits, que actúan como capturas fotográficas o puntos de restauración que sellan cambios específicos 
+con un mensaje descriptivo en la línea de tiempo. Finalmente, el push es la acción de sincronizar este trabajo,
+enviando esos registros acumulados desde tu entorno local o Codespaces hacia el servidor remoto de GitHub para que 
+queden respaldados en la nube y disponibles para el resto del equipo.
