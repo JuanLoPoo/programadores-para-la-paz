@@ -1,0 +1,19 @@
+Peticion URL:http://localhost:3000
+Respuesta:Servidor activo
+
+Peticion URL:http://localhost:3000/saludo
+Respuesta:Hola comunidad
+
+Peticion URL:
+http://localhost:3000/mensaje/juan
+Respuesta:Hola juan
+
+En postman (petición PUT http://localhost:3000/reporte/ ) con raw body:
+{
+  "mensaje" : "Reporte de prueba enviado por la comunidad"
+}
+Respuesta:
+{
+    "estado": "Reporte recibido",
+    "mensaje": "Reporte de prueba enviado por la comunidad"
+}

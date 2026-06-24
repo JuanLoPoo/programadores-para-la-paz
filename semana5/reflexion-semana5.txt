@@ -1,0 +1,10 @@
+¿Cómo podrían las APIs ayudar a que las comunidades compartan información, reportes o alertas de manera organizada?
+Las APIs funcionan como puentes digitales que permiten la comunicación automática entre diferentes sistemas,
+convirtiéndose en la herramienta ideal para estructurar la información comunitaria. En primer lugar, garantizan
+el orden al estandarizar los datos; la API define reglas estrictas sobre qué campos son obligatorios 
+(como fecha, ubicación o tipo de alerta), evitando reportes caóticos o incompletos. 
+Además, eliminan las tareas manuales al automatizar la distribución en tiempo real, 
+lo que permite que un solo reporte ciudadano o de una comunidad actualice simultáneamente un mapa web, envíe un mensaje a un canal 
+comunitario y genere un respaldo en una base de datos. Finalmente, facilitan la interconexión con herramientas externas,
+permitiendo que las iniciativas locales se nutran de datos oficiales o exporten sus alertas de manera segura hacia otras organizaciones,
+transformando la información comunitaria en un espacio dígital ágil, transparente y escalable.
