@@ -1,0 +1,35 @@
+En postman (petición PUT http://localhost:3000/reporte/ ) con raw body:
+{
+  "mensaje" : "Reporte de prueba enviado por la comunidad"
+}
+Respuesta:
+{
+    "estado": "Reporte recibido",
+    "mensaje": "Reporte de prueba enviado por la comunidad"
+}
+
+
+Ruta en server.js:
+
+app.post('/reporte', (req, res) => {
+  const mensaje = req.body.mensaje;
+  res.json({
+    estado: "Reporte recibido",
+    mensaje: mensaje
+  });
+});
+
+¿Qué hace esta ruta?
+
+Esta ruta de Express configura un punto de acceso (endpoint) mediante el método HTTP POST en la dirección /reporte.
+Su función principal es recibir datos enviados por un usuario o dispositivo desde el exterior (el cuerpo de la petición o req.body),
+extraer la propiedad mensaje y responder inmediatamente con un objeto en formato JSON que confirma la recepción devolviendo el mismo texto.
+Qué hace esta ruta.
+
+¿Para qué podría servir en una aplicación comunitaria?
+
+En una aplicación comunitaria, esta ruta es fundamental para capturar la participación activa de los ciudadanos en tiempo real. 
+Sirve como el canal de entrada para que las personas reporten incidentes en la infraestructura pública o derrumbes,
+envíen alertas de seguridad vecinal o registren solicitudes de apoyo social. Al procesar la información mediante el método POST, 
+la ruta permite que la comunidad envíe textos extensos y estructurados de forma segura, sentando las bases para que ese mensaje 
+se guarde posteriormente en una base de datos o dispare notificaciones automáticas de emergencia para el resto de los vecinos.
