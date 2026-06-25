@@ -1,5 +1,10 @@
 /workspaces/programadores-para-la-paz/semana9 (main) $ node server.js
 Servidor ejecutándose en puerto 3000
+
+Explicación: Se abre el puerto local 3000 para que la aplicación de Node.js pueda escuchar peticiones de red. 
+De esta forma, el servidor local puede comunicarse mediante el protocolo HTTP (o HTTPS), permitiendo que el navegador web
+renderice el código HTML para que podamos interactuar y visualizar el aplicativo web.
+
 ------------------------------------------
 Peticion URL:http://localhost:3000
 Respuesta:Servidor activo y funcionando
