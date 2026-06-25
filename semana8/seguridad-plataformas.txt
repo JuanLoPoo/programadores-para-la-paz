@@ -1,0 +1,7 @@
+1. Registro, auditoría de accesos y acciones (Logs de Seguridad).
+2. Control de acceso basado en roles y mínimo privilegio.
+3. Cifrado de contraseñas y datos sensibles antes de guardarlos.
+4. Cifrado en Tránsito y Conexiones Seguras (HTTPS).
+5. Usar métodos de inicio de sesión robustos además de la contraseña (Autenticación de multiples factores).
+6. Instalar librerias estrictamente necesarias en los proyectos (llevar un ojo en que instalamos).
+7. Hacer contramedidas de ciberseguridad en los proyectos (bloquear la ejecución automatica de scripts y códigos sospechosos)

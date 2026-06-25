@@ -1,0 +1,3 @@
+1. No descargar ejecutables/archivos de dudosa procedencia.
+2. Revisar vericidad de los links antes de entrar a los mismos.
+3. Analizar correos y mensajes para evitar descargar virus.

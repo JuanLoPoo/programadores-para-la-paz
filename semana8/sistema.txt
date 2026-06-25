@@ -1,0 +1,8 @@
+/workspaces/programadores-para-la-paz/semana8/seguridad (main) $ uname -a 
+Linux codespaces-2da036 6.8.0-1052-azure #58~22.04.1-Ubuntu SMP Thu Mar 26 05:02:21 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+
+/workspaces/programadores-para-la-paz/semana8/seguridad (main) $ whoami
+codespace
+
+Muestra la información del sistema operativo que en este caso es el que esta usando el workspaces que sería 
+una distribución Linux Ubuntu mientras que es segundo comando del rol que tengo, en este caso puedo modificar el codespace.
