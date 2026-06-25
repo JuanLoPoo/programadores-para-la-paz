@@ -1,4 +1,4 @@
-En postman (petición PUT http://localhost:3000/reporte/ ) con raw body:
+En postman (petición POST http://localhost:3000/reporte/ ) con raw body:
 {
   "mensaje" : "Reporte de prueba enviado por la comunidad"
 }

@@ -1,0 +1,13 @@
+¿Por qué es importante que las plataformas tecnológicas puedan recibir reportes o información enviada por los ciudadanos de forma estructurada?
+
+Recibir la información ciudadana de forma estructurada es fundamental porque transforma el caos de la información en datos organizados,
+analizables y fáciles de priorizar. Cuando los ciudadanos reportan incidentes a través de formatos estandarizados 
+(con campos fijos como tipo de problema, coordenadas exactas y fecha), los algoritmos de la plataforma pueden clasificar y dirigir cada solicitud automáticamente
+a la entidad o departamento correcto en tiempo real. Esto elimina el cuello de botella que implica revisar manualmente miles de mensajes redactados de distintas maneras,
+permitiendo identificar patrones, como zonas con fallos repetitivos, y optimizar los recursos públicos.
+
+Además, la estructuración de datos es clave para la transparencia y el control social. 
+Al contar con información uniforme, la comunidad puede visualizar los reportes en mapas interactivos o gráficos de cumplimiento, 
+facilitando que cualquier ciudadano audite el estado de las soluciones y compare la eficiencia de la gestión comunitaria o institucional. 
+En definitiva, estructurar la información no limita la voz del ciudadano; al contrario, le da rigor técnico a sus peticiones,
+asegurando que sus reportes no se pierdan en la burocracia digital y se conviertan en soluciones reales.

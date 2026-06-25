@@ -1,0 +1,12 @@
+En postman (petición POST http://localhost:3000/incidencia/  ) con raw body:
+{
+  "tipo": "Derrumbe en la via de la vereda",
+  "descripcion": "La comunidad reporta que la via se tapo por un derrumbe en una vereda."
+}
+
+Respuesta:
+{
+    "mensaje": "Incidencia registrada",
+    "tipo": "Derrumbe en la via de la vereda",
+    "descripcion": "La comunidad reporta que la via se tapo por un derrumbe en una vereda."
+}

@@ -1,0 +1,12 @@
+En postman (petición POST http://localhost:3000/registro/  ) con raw body:
+{
+  "nombre": "Maria",
+  "mensaje": "Hola comunidad"
+}
+
+Respuesta:
+{
+    "estado": "Datos recibidos",
+    "nombre": "Maria",
+    "mensaje": "Hola comunidad"
+}
