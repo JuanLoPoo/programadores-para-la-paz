@@ -1,0 +1,26 @@
+En postman (petición POST http://localhost:3000/reportes  ) con raw body:
+{
+  "tipo": "Infraestructura",
+  "descripcion": "Daño en alumbrado público"
+}
+
+Respuesta:
+{
+    "mensaje": "Reporte registrado",
+    "reporte": {
+        "id": 1,
+        "tipo": "Infraestructura",
+        "descripcion": "Daño en alumbrado público"
+    }
+}
+----------------------------------------------------------
+En postman (petición GET http://localhost:3000/reportes  )
+
+Respuesta:
+[
+    {
+        "id": 1,
+        "tipo": "Infraestructura",
+        "descripcion": "Daño en alumbrado público"
+    }
+]

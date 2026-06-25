@@ -1,0 +1,46 @@
+En postman (1ra petición POST http://localhost:3000/reportes  ) con raw body:
+{
+  "tipo": "Seguridad",
+  "descripcion": "Raponeo frecuente en una estación de transmilenio"
+}
+Respuesta:
+{
+    "mensaje": "Reporte registrado",
+    "reporte": {
+        "id": 1,
+        "tipo": "Seguridad",
+        "descripcion": "Raponeo frecuente en una estación de transmilenio"
+    }
+}
+
+--------------------------------------------------------------------------
+En postman (2da petición POST http://localhost:3000/reportes  ) con raw body:
+{
+  "tipo": "Riesgo de derrumbe",
+  "descripcion": "En el km +3 de la via se han presentado recientemente caida de rocas"
+}
+Respuesta:
+{
+    "mensaje": "Reporte registrado",
+    "reporte": {
+        "id": 2,
+        "tipo": "Riesgo de derrumbe",
+        "descripcion": "En el km +3 de la via se han presentado recientemente caida de rocas"
+    }
+}
+
+--------------------------------------------------------------------------
+En postman (3ra petición GET http://localhost:3000/reportes  )
+Respuesta:
+[
+    {
+        "id": 1,
+        "tipo": "Seguridad",
+        "descripcion": "Raponeo frecuente en una estación de transmilenio"
+    },
+    {
+        "id": 2,
+        "tipo": "Riesgo de derrumbe",
+        "descripcion": "En el km +3 de la via se han presentado recientemente caida de rocas"
+    }
+]
