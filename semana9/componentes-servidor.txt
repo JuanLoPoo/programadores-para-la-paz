@@ -1,0 +1,19 @@
+1. Sistema operativo (OS): 
+Es el software base (como Linux Ubuntu o Windows) que administra directamente el hardware, los recursos de memoria y los archivos. 
+Actúa como los cimientos estables sobre los cuales pueden ejecutarse todos los demás programas y entornos de desarrollo.
+
+2. Node.js: 
+Es un entorno de ejecución que permite procesar y ejecutar código JavaScript directamente en el servidor.
+Actúa como el motor o intérprete que traduce código escrito en JavaScript para que el sistema operativo las pueda entender y ejecutar.
+
+3. server.js: 
+Es el archivo principal que contiene el código fuente de la lógica de negocio, las rutas y reglas de red. 
+Su función es arrancar el servidor web, procesar las solicitudes de los usuarios y decidir qué respuestas o datos enviar de vuelta.
+
+4. Puerto: 
+Es un canal o punto final lógico de comunicación en el sistema operativo (como el puerto 3000 o 8080) asignado a una aplicación específica. 
+Funciona como una puerta digital numerada para que el tráfico de red de internet exactamente a qué programa debe dirigirse dentro del servidor.
+
+5. Logs: 
+Son archivos de texto con registros cronológicos automáticos que guardan el historial de eventos, errores y accesos del sistema. 
+Su función es servir como una bitácora detallada que permite auditar la seguridad, monitorear el rendimiento y rastrear fallos cuando algo sale mal.

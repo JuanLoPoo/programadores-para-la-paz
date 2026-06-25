@@ -1,0 +1,13 @@
+/workspaces/programadores-para-la-paz/semana9 (main) $ node server.js
+Servidor ejecutándose en puerto 3000
+------------------------------------------
+Peticion URL:http://localhost:3000
+Respuesta:Servidor activo y funcionando
+------------------------------------------
+Peticion URL:http://localhost:3000/estado
+Respuesta:
+{
+  "estado": "Servidor funcionando",
+  "servicio": "API comunitaria"
+}
+------------------------------------------
